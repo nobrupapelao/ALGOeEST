@@ -1,5 +1,5 @@
-idade= int(input("digite a idade"))
-if idade>=18:
-    print(" voce é maior de idade")
+idade=int(input("insira sua idade."))
+if idade <18:
+     print("voce é menor de idade.")
 else:
-    print("voce é menor de idade")
+     print("voce é maior de idade.")
